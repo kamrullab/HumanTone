@@ -1,3 +1,9 @@
+---
+layout: default
+title: Strict Prompt
+---
+
+
 # Strict Prompt
 
 ## Strict Human Writing Style Instruction
