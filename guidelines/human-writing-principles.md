@@ -1,3 +1,10 @@
+
+---
+layout: default
+title: Human Writing Principles
+---
+
+
 # Human Writing Principles
 
 This guide explains the core principles behind natural, personal, and context-appropriate writing.
