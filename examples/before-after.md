@@ -1,3 +1,8 @@
+---
+layout: default
+title: Before and After
+---
+
 # Before and After Examples
 
 This file shows how the same message can sound different when written in a generic AI style versus a more natural and direct style.
