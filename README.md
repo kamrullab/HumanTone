@@ -2,9 +2,14 @@
 
 **Write with your voice, not a generic AI voice.**
 
+[![Website](https://img.shields.io/badge/Website-Explore_HumanTone-7c5cff?style=flat-square)](https://kamrullab.github.io/HumanTone/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-31b8aa?style=flat-square)](./LICENSE)
+
 HumanTone is an open-source collection of prompts, guidelines, and examples designed to help AI write in a more natural, personal, and human way.
 
 The goal is not to make AI "pretend to be human." The goal is to reduce common AI writing habits and help the output better match the user's real tone, phrasing, and communication style.
+
+**[Explore the HumanTone website →](https://kamrullab.github.io/HumanTone/)**
 
 ## Explore the Project
 
@@ -59,6 +64,12 @@ HumanTone helps reduce these patterns.
 
     HumanTone/
     │
+    ├── _layouts/
+    │   └── default.html
+    ├── assets/
+    │   ├── css/
+    │   ├── images/
+    │   └── js/
     ├── .github/
     │   ├── ISSUE_TEMPLATE/
     │   │   ├── bug_report.md
@@ -80,6 +91,9 @@ HumanTone helps reduce these patterns.
     │   ├── short-prompt.md
     │   └── strict-prompt.md
     │
+    ├── _config.yml
+    ├── index.md
+    ├── 404.md
     ├── CHANGELOG.md
     ├── CODE_OF_CONDUCT.md
     ├── CONTRIBUTING.md

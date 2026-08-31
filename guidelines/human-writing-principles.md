@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: Human Writing Principles

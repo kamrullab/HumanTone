@@ -13,6 +13,22 @@ The format is based on Keep a Changelog principles.
 
 ## [Unreleased]
 
+### Added
+
+- Dedicated Jekyll landing page for prompts, examples, and guidelines
+- Responsive mobile navigation and documentation sidebar
+- Project branding, favicon, SEO metadata, and custom 404 page
+- Accessible keyboard focus, skip navigation, and reduced-motion support
+
+### Changed
+
+- Rebuilt the site layout and visual system for a more polished reading experience
+- Improved prompt pages with a single, clearer copy control
+
+### Fixed
+
+- Removed the duplicate copy button generated on prompt pages
+
 ### Planned
 
 - Add more writing prompts

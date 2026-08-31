@@ -1,65 +1,42 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.querySelector(".nav-toggle");
+  const navigation = document.querySelector(".nav-links");
 
-    /* =========================
-       COPY PROMPT BUTTON
-    ========================== */
-  
-    const promptContent = document.querySelector(".prompt-content");
-  
-    if (promptContent) {
-      const copyButton = document.createElement("button");
-  
-      copyButton.className = "copy-prompt-button";
-      copyButton.textContent = "Copy Prompt";
-  
-      promptContent.parentNode.insertBefore(
-        copyButton,
-        promptContent
-      );
-  
-      copyButton.addEventListener("click", async () => {
-        const text = promptContent.innerText;
-  
-        try {
-          await navigator.clipboard.writeText(text);
-  
-          copyButton.textContent = "Copied!";
-  
-          setTimeout(() => {
-            copyButton.textContent = "Copy Prompt";
-          }, 2000);
-  
-        } catch (error) {
-          copyButton.textContent = "Copy failed";
-  
-          setTimeout(() => {
-            copyButton.textContent = "Copy Prompt";
-          }, 2000);
-        }
-      });
-    }
-  
-  
-    /* =========================
-       ACTIVE NAVIGATION
-    ========================== */
-  
-    const currentPath = window.location.pathname;
-  
-    const navLinks = document.querySelectorAll(".nav-links a");
-  
-    navLinks.forEach((link) => {
-      const linkUrl = new URL(
-        link.href,
-        window.location.origin
-      );
-  
-      if (
-        linkUrl.pathname === currentPath &&
-        linkUrl.hash === ""
-      ) {
-        link.classList.add("active");
+  if (toggle && navigation) {
+    toggle.addEventListener("click", () => {
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      navigation.classList.toggle("is-open", !isOpen);
+    });
+
+    navigation.addEventListener("click", (event) => {
+      if (event.target.closest("a")) {
+        toggle.setAttribute("aria-expanded", "false");
+        navigation.classList.remove("is-open");
       }
     });
-  
-  });
+  }
+
+  const copyButton = document.querySelector("[data-copy-prompt]");
+  const promptContent = document.querySelector("[data-prompt-content]");
+
+  if (copyButton && promptContent) {
+    copyButton.addEventListener("click", async () => {
+      try {
+        await navigator.clipboard.writeText(promptContent.innerText.trim());
+        copyButton.textContent = "Copied";
+        copyButton.classList.add("is-copied");
+      } catch (error) {
+        copyButton.textContent = "Copy failed";
+      }
+
+      window.setTimeout(() => {
+        copyButton.textContent = "Copy prompt";
+        copyButton.classList.remove("is-copied");
+      }, 1800);
+    });
+  }
+
+  const year = document.querySelector("[data-current-year]");
+  if (year) year.textContent = new Date().getFullYear();
+});

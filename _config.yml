@@ -1,5 +1,39 @@
 title: HumanTone
-description: Write with your voice, not a generic AI voice.
-theme: jekyll-theme-minimal
+tagline: Keep your voice in AI-assisted writing
+description: Open-source prompts, practical guidelines, and real examples for writing with AI without losing your natural voice.
+url: https://kamrullab.github.io
+baseurl: /HumanTone
+repository: kamrullab/HumanTone
+author:
+  name: Kamrul Hossain
+  url: https://github.com/kamrullab
 
+lang: en
+timezone: Asia/Dhaka
+logo: /assets/images/logo.svg
+social:
+  name: HumanTone
+  links:
+    - https://github.com/kamrullab/HumanTone
+
+theme: jekyll-theme-minimal
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - README.md
