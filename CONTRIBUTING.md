@@ -1,3 +1,9 @@
+---
+layout: default
+title: Contributing
+---
+
+
 # Contributing to HumanTone
 
 Thank you for your interest in contributing to HumanTone.
