@@ -1,3 +1,9 @@
+---
+layout: default
+title: Social Media
+---
+
+
 # Social Media Writing Examples
 
 This file shows how AI can adapt social media content to sound more natural, personal, and appropriate for the platform.
