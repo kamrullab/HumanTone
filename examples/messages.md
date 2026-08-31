@@ -1,3 +1,8 @@
+---
+layout: default
+title: Personal Messages
+---
+
 # Personal Message Examples
 
 This file shows how personal messages can sound more natural, direct, and conversational.
