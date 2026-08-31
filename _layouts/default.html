@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}?v={{ site.github.build_revision | default: '20260831' }}">
   </head>
   <body class="{% if page.url == '/' %}home-page{% else %}doc-page{% endif %}">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -93,6 +93,6 @@
         <span>Open source under the <a href="{{ '/LICENSE' | relative_url }}">MIT License</a></span>
       </div>
     </footer>
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.github.build_revision | default: '20260831' }}"></script>
   </body>
 </html>
