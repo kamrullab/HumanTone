@@ -166,3 +166,48 @@ This project is released under the MIT License included in the [LICENSE](./LICEN
 ---
 
 **HumanTone is about writing that sounds natural to the person using it, not making everyone sound the same.**
+
+## Creator
+
+HumanTone was created and is maintained by **Kamrul Hossain**.
+
+**GitHub:** [@kamrullab](https://github.com/kamrullab)
+
+## About the Creator
+
+Kamrul Hossain is an independent developer and technology enthusiast interested in software development, AI, automation, and practical digital solutions.
+
+He focuses on building useful projects and resources that solve real-world problems and make technology easier to use.
+
+HumanTone was created from a simple observation: AI can generate grammatically correct and polished writing, but the result often sounds generic and disconnected from the person using it.
+
+The project focuses on a different approach.
+
+Instead of forcing everyone into a single definition of "good writing," HumanTone encourages AI to understand and adapt to the user's natural communication style.
+
+This includes things such as:
+
+- Personal tone
+- Natural phrasing
+- Word choice
+- Sentence length
+- Level of formality
+- Communication habits
+- Context and audience
+- Natural language mixing when appropriate
+
+## Project Philosophy
+
+Technology should adapt to people, not force people to adapt to technology.
+
+HumanTone is built around the idea that AI should assist with writing without unnecessarily removing the personality of the person behind it.
+
+The goal is not perfection.
+
+The goal is writing that feels natural, clear, and appropriate for the person and the situation.
+
+## Maintainer
+
+HumanTone is currently created and maintained by **Kamrul Hossain**.
+
+Contributions, suggestions, improvements, and new ideas are welcome through GitHub Issues and Pull Requests.
