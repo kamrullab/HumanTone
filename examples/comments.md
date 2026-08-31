@@ -1,3 +1,9 @@
+---
+layout: default
+title: Comments and Replies
+---
+
+
 # Comments and Replies Examples
 
 This file shows how comments and replies can sound more natural and conversational.
