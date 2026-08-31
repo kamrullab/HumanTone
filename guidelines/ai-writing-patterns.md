@@ -98,7 +98,7 @@ Some AI-generated writing uses em dashes frequently.
 
 ### Example
 
-> The update is complete — everything should work properly now.
+> The update is complete. Everything should work properly now.
 
 Depending on the user's style, a simpler structure may sound more natural.
 

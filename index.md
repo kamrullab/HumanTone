@@ -1,5 +1,5 @@
 ---
-title: HumanTone — Keep Your Voice in AI-Assisted Writing
+title: HumanTone | Keep Your Voice in AI-Assisted Writing
 description: Open-source prompts, practical guidelines, and real examples that help AI-assisted writing sound natural, personal, and true to you.
 permalink: /
 ---
@@ -8,7 +8,7 @@ permalink: /
   <div class="hero-shell">
     <p class="hero-kicker">Open-source writing toolkit</p>
     <h1>Sound like yourself.<br><span class="gradient-text">Even with AI.</span></h1>
-    <p class="hero-lede">Practical prompts, guidelines, and examples that help AI adapt to your voice—without the generic polish, filler, or robotic phrasing.</p>
+    <p class="hero-lede">Practical prompts, guidelines, and examples that help AI adapt to your voice without the generic polish, filler, or robotic phrasing.</p>
     <div class="hero-actions">
       <a class="button button-primary" href="{{ '/prompts/master-prompt.html' | relative_url }}">Use the master prompt <span aria-hidden="true">→</span></a>
       <a class="button" href="https://github.com/kamrullab/HumanTone" target="_blank" rel="noopener noreferrer">
@@ -86,6 +86,6 @@ permalink: /
     </div>
   </div>
   <aside class="quote-panel">
-    <p>Good AI-assisted writing should feel appropriate to the person and the moment—not like everyone was handed the same script.</p>
+    <p>Good AI-assisted writing should feel appropriate to the person and the moment, not like everyone was handed the same script.</p>
   </aside>
 </section>

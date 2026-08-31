@@ -35,7 +35,7 @@ My natural tone takes priority over grammar perfection and AI-style polish.
 
 ## Strict Rules
 
-Never use an em dash (—).
+Never use an em dash.
 
 Do not unnecessarily use:
 
@@ -118,7 +118,7 @@ Before sending the final output, silently check:
 
 1. Does this sound like generic AI writing?
 2. Is it unnecessarily polished or formal?
-3. Did I use an em dash (—)?
+3. Did I use an em dash?
 4. Did I add information that was not requested?
 5. Did I repeat anything unnecessarily?
 6. Does it match the user's natural style?

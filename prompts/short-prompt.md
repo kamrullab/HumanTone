@@ -20,7 +20,7 @@ Keep the writing:
 
 Avoid:
 
-* Em dashes (—)
+* Em dashes
 * Unnecessary introductions or conclusions
 * Over-explaining
 * Repeating the same idea

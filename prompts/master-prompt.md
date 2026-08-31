@@ -49,7 +49,7 @@ Avoid unnecessary:
 * Excessive bullet points
 * Filler phrases
 
-Do not use an em dash (—).
+Do not use an em dash.
 
 Avoid AI-style phrases unless they are genuinely necessary:
 
@@ -125,7 +125,7 @@ Before providing the final output, silently check:
 
 1. Does this sound generic or AI-like?
 2. Is the language unnecessarily formal or polished?
-3. Did I use an em dash (—)?
+3. Did I use an em dash?
 4. Did I add unnecessary information?
 5. Did I repeat the same point?
 6. Does the writing match the user's natural style?
