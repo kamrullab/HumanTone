@@ -6,34 +6,64 @@ HumanTone is an open-source collection of prompts, guidelines, and examples desi
 
 The goal is not to make AI "pretend to be human." The goal is to reduce common AI writing habits and help the output better match the user's real tone, phrasing, and communication style.
 
+## Explore the Project
+
+### 📝 Prompts
+
+Ready-to-use prompts for different writing needs.
+
+- [Master Prompt](./prompts/master-prompt.md)
+- [Short Prompt](./prompts/short-prompt.md)
+- [Strict Prompt](./prompts/strict-prompt.md)
+
+### 💡 Examples
+
+Real-world examples showing the difference between generic AI writing and more natural writing.
+
+- [Before and After](./examples/before-after.md)
+- [Social Media](./examples/social-media.md)
+- [Comments and Replies](./examples/comments.md)
+- [Personal Messages](./examples/messages.md)
+
+### 📚 Guidelines
+
+Guides for understanding natural writing and common AI writing patterns.
+
+- [Common AI Writing Patterns](./guidelines/ai-writing-patterns.md)
+- [Human Writing Principles](./guidelines/human-writing-principles.md)
+
+### 🤝 Community
+
+- [Contributing Guide](./CONTRIBUTING.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+- [Changelog](./CHANGELOG.md)
+- [License](./LICENSE)
+
 ## Why HumanTone?
 
 AI-generated writing often has recognizable patterns:
 
-* Overly polished language
-* Unnecessary formal wording
-* Repetitive sentence structures
-* Generic introductions and conclusions
-* Excessive explanations
-* Corporate or textbook-like language
-* Common AI phrases and transitions
-* Overuse of em dashes
-* Writing that sounds too balanced or perfectly structured
+- Overly polished language
+- Unnecessary formal wording
+- Repetitive sentence structures
+- Generic introductions and conclusions
+- Excessive explanations
+- Corporate or textbook-like language
+- Common AI phrases and transitions
+- Overuse of em dashes
+- Writing that sounds too balanced or perfectly structured
 
 HumanTone helps reduce these patterns.
 
-## What is included?
+## What Is Included?
 
-```text
 HumanTone/
-│
-├── README.md
-├── LICENSE
-│
-├── prompts/
-│   ├── master-prompt.md
-│   ├── short-prompt.md
-│   └── strict-prompt.md
+
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
 │
 ├── examples/
 │   ├── before-after.md
@@ -45,18 +75,26 @@ HumanTone/
 │   ├── ai-writing-patterns.md
 │   └── human-writing-principles.md
 │
-└── CONTRIBUTING.md
-```
+├── prompts/
+│   ├── master-prompt.md
+│   ├── short-prompt.md
+│   └── strict-prompt.md
+│
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+└── README.md
 
 ## Quick Start
 
-Choose a prompt from the `prompts/` directory and use it as a system instruction or writing instruction for your AI assistant.
+Choose a prompt from the [`prompts`](./prompts/) directory and use it as a system instruction or writing instruction for your AI assistant.
 
-### Available prompts
+### Available Prompts
 
-* **Master Prompt**: A complete instruction set for matching a user's natural writing style.
-* **Short Prompt**: A lightweight version for everyday use.
-* **Strict Prompt**: A more restrictive version focused on avoiding common AI writing patterns.
+- **Master Prompt:** A complete instruction set for matching a user's natural writing style.
+- **Short Prompt:** A lightweight version for everyday use.
+- **Strict Prompt:** A more restrictive version focused on avoiding common AI writing patterns.
 
 ## Core Principle
 
@@ -66,29 +104,29 @@ Do not automatically make writing more polished, formal, grammatically perfect, 
 
 AI should adapt to the user's:
 
-* Tone
-* Word choice
-* Phrasing
-* Sentence length
-* Level of formality
-* Communication style
-* Natural use of language
+- Tone
+- Word choice
+- Phrasing
+- Sentence length
+- Level of formality
+- Communication style
+- Natural use of language
 
 ## What HumanTone Avoids
 
 HumanTone focuses on reducing patterns such as:
 
-* Unnecessary introductions
-* Unnecessary summaries
-* Repeating the same idea
-* Over-explaining simple points
-* Excessive bullet points
-* Excessive headings
-* Overly formal transitions
-* Corporate buzzwords
-* Perfectly balanced paragraphs
-* Repetitive sentence structures
-* Unnecessary em dashes
+- Unnecessary introductions
+- Unnecessary summaries
+- Repeating the same idea
+- Over-explaining simple points
+- Excessive bullet points
+- Excessive headings
+- Overly formal transitions
+- Corporate buzzwords
+- Perfectly balanced paragraphs
+- Repetitive sentence structures
+- Unnecessary em dashes
 
 ## Important Note
 
@@ -102,10 +140,10 @@ HumanTone is designed to improve naturalness and style alignment, not to bypass 
 
 Check the [`examples`](./examples/) directory for:
 
-* Before and after comparisons
-* Social media writing
-* Comments and replies
-* Personal messages
+- Before and after comparisons
+- Social media writing
+- Comments and replies
+- Personal messages
 
 ## Contributing
 
@@ -113,17 +151,17 @@ Contributions are welcome.
 
 You can contribute by:
 
-* Improving existing prompts
-* Adding useful examples
-* Identifying common AI writing patterns
-* Improving documentation
-* Suggesting better style guidelines
+- Improving existing prompts
+- Adding useful examples
+- Identifying common AI writing patterns
+- Improving documentation
+- Suggesting better style guidelines
 
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a contribution.
 
 ## License
 
-This project is released under the license included in the [LICENSE](./LICENSE) file.
+This project is released under the MIT License included in the [LICENSE](./LICENSE) file.
 
 ---
 
