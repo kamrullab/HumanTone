@@ -1,3 +1,11 @@
+---
+layout: default
+title: AI Writing Patterns
+---
+
+
+
+
 # Common AI Writing Patterns
 
 This guide covers common patterns often found in AI-generated writing.
