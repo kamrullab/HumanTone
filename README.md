@@ -57,34 +57,34 @@ HumanTone helps reduce these patterns.
 
 ## What Is Included?
 
-HumanTone/
-
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   └── feature_request.md
-│   └── PULL_REQUEST_TEMPLATE.md
-│
-├── examples/
-│   ├── before-after.md
-│   ├── social-media.md
-│   ├── comments.md
-│   └── messages.md
-│
-├── guidelines/
-│   ├── ai-writing-patterns.md
-│   └── human-writing-principles.md
-│
-├── prompts/
-│   ├── master-prompt.md
-│   ├── short-prompt.md
-│   └── strict-prompt.md
-│
-├── CHANGELOG.md
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-└── README.md
+    HumanTone/
+    │
+    ├── .github/
+    │   ├── ISSUE_TEMPLATE/
+    │   │   ├── bug_report.md
+    │   │   └── feature_request.md
+    │   └── PULL_REQUEST_TEMPLATE.md
+    │
+    ├── examples/
+    │   ├── before-after.md
+    │   ├── social-media.md
+    │   ├── comments.md
+    │   └── messages.md
+    │
+    ├── guidelines/
+    │   ├── ai-writing-patterns.md
+    │   └── human-writing-principles.md
+    │
+    ├── prompts/
+    │   ├── master-prompt.md
+    │   ├── short-prompt.md
+    │   └── strict-prompt.md
+    │
+    ├── CHANGELOG.md
+    ├── CODE_OF_CONDUCT.md
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    └── README.md
 
 ## Quick Start
 
