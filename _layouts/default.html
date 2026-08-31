@@ -11,13 +11,11 @@
 
   {% seo %}
 
-  <!-- Jekyll Minimal Theme CSS -->
   <link
     rel="stylesheet"
     href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
   >
 
-  <!-- HumanTone Custom CSS -->
   <link
     rel="stylesheet"
     href="{{ '/assets/css/custom.css' | relative_url }}"
@@ -30,7 +28,6 @@
 
   <!-- Navigation -->
   <nav class="navbar">
-
     <div class="nav-container">
 
       <a
@@ -42,19 +39,31 @@
 
       <div class="nav-links">
 
-        <a href="{{ '/' | relative_url }}">
+        <a
+          href="{{ '/' | relative_url }}"
+          class="{% if page.url == '/' or page.url == '/README.html' %}active{% endif %}"
+        >
           Home
         </a>
 
-        <a href="{{ '/#prompts' | relative_url }}">
+        <a
+          href="{{ '/#prompts' | relative_url }}"
+          class="{% if page.url contains '/prompts/' %}active{% endif %}"
+        >
           Prompts
         </a>
 
-        <a href="{{ '/#examples' | relative_url }}">
+        <a
+          href="{{ '/#examples' | relative_url }}"
+          class="{% if page.url contains '/examples/' %}active{% endif %}"
+        >
           Examples
         </a>
 
-        <a href="{{ '/#guidelines' | relative_url }}">
+        <a
+          href="{{ '/#guidelines' | relative_url }}"
+          class="{% if page.url contains '/guidelines/' %}active{% endif %}"
+        >
           Guidelines
         </a>
 
@@ -69,7 +78,6 @@
       </div>
 
     </div>
-
   </nav>
 
 
@@ -90,9 +98,7 @@
         {{ site.description | default: site.github.project_tagline }}
       </p>
 
-
       {% if site.github.is_project_page %}
-
       <a
         class="github-button"
         href="{{ site.github.repository_url }}"
@@ -101,9 +107,7 @@
       >
         View on GitHub
       </a>
-
       {% endif %}
-
 
       <div class="sidebar-footer">
 
@@ -130,26 +134,114 @@
     <!-- Page Content -->
     <section class="content">
 
-      {{ content }}
+      {% if page.url contains '/prompts/' %}
+
+      <div class="prompt-page">
+
+        <button
+          class="copy-prompt-button"
+          id="copyPrompt"
+          type="button"
+        >
+          Copy Prompt
+        </button>
+
+        <div class="prompt-content">
+          {{ content }}
+        </div>
+
+      </div>
+
+      {% else %}
+
+        {{ content }}
+
+      {% endif %}
 
     </section>
 
   </main>
 
 
-  <!-- Footer -->
-  <footer class="mobile-footer">
+  <!-- Better Footer -->
+  <footer class="site-footer">
 
-    <p>
-      Created and maintained by Kamrul Hossain
-    </p>
+    <div class="footer-container">
 
-    <p>
-      © 2026 HumanTone
-    </p>
+      <div class="footer-brand">
+
+        <h3>HumanTone</h3>
+
+        <p>
+          Write with your voice, not a generic AI voice.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <div>
+          <h4>Explore</h4>
+
+          <a href="{{ '/#prompts' | relative_url }}">
+            Prompts
+          </a>
+
+          <a href="{{ '/#examples' | relative_url }}">
+            Examples
+          </a>
+
+          <a href="{{ '/#guidelines' | relative_url }}">
+            Guidelines
+          </a>
+        </div>
+
+
+        <div>
+          <h4>Community</h4>
+
+          <a href="{{ '/CONTRIBUTING.html' | relative_url }}">
+            Contributing
+          </a>
+
+          <a href="{{ '/AUTHORS.html' | relative_url }}">
+            Authors
+          </a>
+
+          <a
+            href="{{ site.github.repository_url }}"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 HumanTone
+      </span>
+
+      <span>
+        Created and maintained by Kamrul Hossain
+      </span>
+
+    </div>
 
   </footer>
 
-</body>
 
+  <!-- JavaScript -->
+  <script
+    src="{{ '/assets/js/main.js' | relative_url }}"
+  ></script>
+
+</body>
 </html>
