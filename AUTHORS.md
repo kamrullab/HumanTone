@@ -1,3 +1,9 @@
+---
+layout: default
+title: Authors
+---
+
+
 # Authors
 
 ## Creator and Maintainer
