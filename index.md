@@ -80,7 +80,7 @@ permalink: /
       <li>Keep the level of polish appropriate to the context</li>
       <li>Avoid claims about detecting or disguising AI writing</li>
     </ul>
-    <div class="hero-actions" style="justify-content:flex-start; margin-top:30px">
+    <div class="hero-actions principle-actions">
       <a class="button" href="{{ '/guidelines/human-writing-principles.html' | relative_url }}">Read the principles <span aria-hidden="true">→</span></a>
       <a class="button" href="{{ '/guidelines/ai-writing-patterns.html' | relative_url }}">Explore common patterns</a>
     </div>
@@ -89,4 +89,3 @@ permalink: /
     <p>Good AI-assisted writing should feel appropriate to the person and the moment—not like everyone was handed the same script.</p>
   </aside>
 </section>
-

@@ -3,6 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const navigation = document.querySelector(".nav-links");
 
   if (toggle && navigation) {
+    const closeNavigation = () => {
+      toggle.setAttribute("aria-expanded", "false");
+      navigation.classList.remove("is-open");
+    };
+
     toggle.addEventListener("click", () => {
       const isOpen = toggle.getAttribute("aria-expanded") === "true";
       toggle.setAttribute("aria-expanded", String(!isOpen));
@@ -11,9 +16,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
     navigation.addEventListener("click", (event) => {
       if (event.target.closest("a")) {
-        toggle.setAttribute("aria-expanded", "false");
-        navigation.classList.remove("is-open");
+        closeNavigation();
       }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        closeNavigation();
+        toggle.focus();
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 900) closeNavigation();
     });
   }
 
