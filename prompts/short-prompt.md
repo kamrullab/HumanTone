@@ -1,3 +1,8 @@
+---
+layout: default
+title: Short Prompt
+---
+
 # Short Prompt
 
 Write in my natural human voice, not a generic AI voice.
