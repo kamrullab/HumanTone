@@ -4,8 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b1220">
+    <meta name="color-scheme" content="dark">
+    <meta name="application-name" content="HumanTone">
+    <meta name="apple-mobile-web-app-title" content="HumanTone">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-TileColor" content="#0b1220">
+    <meta name="msapplication-config" content="{{ '/browserconfig.xml' | relative_url }}">
     {% seo %}
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ page.image.alt | default: 'HumanTone writing toolkit' }}">
+    <meta name="twitter:image:alt" content="{{ page.image.alt | default: 'HumanTone writing toolkit' }}">
+    <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}" sizes="any">
     <link rel="icon" href="{{ '/assets/images/logo.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="icon" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}" type="image/png" sizes="32x32">
+    <link rel="icon" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}" sizes="180x180">
+    <link rel="mask-icon" href="{{ '/assets/images/safari-pinned-tab.svg' | relative_url }}" color="#7c5cff">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet">

@@ -1,0 +1,25 @@
+{
+  "name": "HumanTone",
+  "short_name": "HumanTone",
+  "description": "Prompts and guides for AI-assisted writing that still sounds like you.",
+  "start_url": "/HumanTone/",
+  "scope": "/HumanTone/",
+  "display": "standalone",
+  "background_color": "#080d17",
+  "theme_color": "#0b1220",
+  "icons": [
+    {
+      "src": "/HumanTone/assets/images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/HumanTone/assets/images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
