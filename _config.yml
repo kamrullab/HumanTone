@@ -10,7 +10,7 @@ author:
 
 lang: en
 timezone: Asia/Dhaka
-logo: /HumanTone/assets/images/logo.svg
+logo: /assets/images/logo.svg
 twitter:
   card: summary_large_image
 social:
@@ -34,7 +34,7 @@ defaults:
     values:
       layout: default
       image:
-        path: /HumanTone/assets/images/og-image.png
+        path: /assets/images/og-image.png
         width: 1200
         height: 630
         alt: HumanTone | Keep your voice and lose the generic AI tone
