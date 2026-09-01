@@ -54,4 +54,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const year = document.querySelector("[data-current-year]");
   if (year) year.textContent = new Date().getFullYear();
+
+  if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+    document.querySelectorAll(".bento-card").forEach((card) => {
+      card.addEventListener("pointermove", (event) => {
+        const bounds = card.getBoundingClientRect();
+        card.style.setProperty("--pointer-x", `${event.clientX - bounds.left}px`);
+        card.style.setProperty("--pointer-y", `${event.clientY - bounds.top}px`);
+      });
+    });
+  }
 });

@@ -5,87 +5,202 @@ permalink: /
 ---
 
 <section class="hero">
-  <div class="hero-shell">
-    <p class="hero-kicker">Open-source writing toolkit</p>
-    <h1>Sound like yourself.<br><span class="gradient-text">Even with AI.</span></h1>
-    <p class="hero-lede">Practical prompts, guidelines, and examples that help AI adapt to your voice without the generic polish, filler, or robotic phrasing.</p>
-    <div class="hero-actions">
-      <a class="button button-primary" href="{{ '/prompts/master-prompt.html' | relative_url }}">Use the master prompt <span aria-hidden="true">→</span></a>
-      <a class="button" href="https://github.com/kamrullab/HumanTone" target="_blank" rel="noopener noreferrer">
-        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2.2c-3.4.7-4.1-1.4-4.1-1.4-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.3.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1.1.1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.4-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .7Z"/></svg>
-        View on GitHub
-      </a>
+  <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+  <div class="hero-shell hero-grid">
+    <div class="hero-copy">
+      <p class="hero-kicker">Open-source writing toolkit</p>
+      <h1>Keep your voice.<br><span class="gradient-text">Lose the AI tone.</span></h1>
+      <p class="hero-lede">Practical prompts and real examples that help AI adapt to your natural style without generic polish, filler, or robotic phrasing.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="{{ '/prompts/master-prompt.html' | relative_url }}">Use the master prompt <span aria-hidden="true">→</span></a>
+        <a class="button button-quiet" href="#prompts">Explore the toolkit</a>
+      </div>
+      <div class="hero-proof" aria-label="Toolkit summary">
+        <div><strong>3</strong><span>Ready prompts</span></div>
+        <div><strong>4</strong><span>Example sets</span></div>
+        <div><strong>2</strong><span>Practical guides</span></div>
+      </div>
+    </div>
+
+    <div class="hero-product glass-panel" aria-label="HumanTone writing preview">
+      <div class="product-bar">
+        <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>HumanTone workspace</span>
+        <span class="live-badge"><i></i> Active</span>
+      </div>
+      <div class="product-body">
+        <div class="profile-row">
+          <span class="profile-mark">KH</span>
+          <div><strong>Your voice profile</strong><small>Adapted from this conversation</small></div>
+          <span class="profile-score">92%</span>
+        </div>
+        <div class="tone-label">Writing preferences</div>
+        <div class="tone-tags">
+          <span>Direct</span><span>Conversational</span><span>Clear</span><span>Personal</span>
+        </div>
+        <div class="message-preview">
+          <div class="message-meta"><span>Generated reply</span><span>Just now</span></div>
+          <p>Thanks for sending this. I looked through it and the direction feels right. I would keep the opening simple and make the main point clearer.</p>
+        </div>
+        <div class="quality-row">
+          <span><i class="quality-dot"></i> Natural tone</span>
+          <span>No filler</span>
+          <span>Voice matched</span>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="home-section" id="prompts">
-  <div class="section-heading">
-    <p class="eyebrow">Start here</p>
-    <h2>Choose the right prompt</h2>
-    <p>From a quick everyday instruction to full style control, pick the amount of guidance your writing needs.</p>
+  <div class="section-heading section-heading-row">
+    <div>
+      <p class="eyebrow">The prompt library</p>
+      <h2>One voice, three levels of control.</h2>
+    </div>
+    <p>Start lightweight or go deep. Each prompt is ready to copy and designed for a different writing situation.</p>
   </div>
-  <div class="card-grid">
-    <a class="resource-card" href="{{ '/prompts/master-prompt.html' | relative_url }}">
-      <span class="card-number">01 · COMPLETE</span><span class="card-link" aria-hidden="true">↗</span>
-      <h3>Master Prompt</h3>
-      <p>A comprehensive instruction set for matching your tone, phrasing, rhythm, and level of formality.</p>
+
+  <div class="prompt-bento">
+    <a class="bento-card bento-feature bento-violet" href="{{ '/prompts/master-prompt.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="bento-topline">
+        <span class="icon-tile">✦</span>
+        <span class="card-pill">Most complete</span>
+      </div>
+      <div class="bento-content">
+        <span class="bento-index">01 / MASTER</span>
+        <h3>Build a complete voice profile.</h3>
+        <p>Guide tone, word choice, sentence rhythm, formality, and context with one comprehensive instruction set.</p>
+      </div>
+      <div class="prompt-preview" aria-hidden="true">
+        <div><span></span><span></span><span></span></div>
+        <p><i></i> Match my natural writing style</p>
+        <p><i></i> Preserve my tone and phrasing</p>
+        <p><i></i> Remove generic AI patterns</p>
+      </div>
+      <span class="bento-link">Open master prompt <i>→</i></span>
     </a>
-    <a class="resource-card" href="{{ '/prompts/short-prompt.html' | relative_url }}">
-      <span class="card-number">02 · EVERYDAY</span><span class="card-link" aria-hidden="true">↗</span>
-      <h3>Short Prompt</h3>
-      <p>A lightweight version you can paste into everyday chats when speed matters.</p>
+
+    <a class="bento-card bento-compact bento-cyan" href="{{ '/prompts/short-prompt.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="bento-topline"><span class="icon-tile">↗</span><span class="card-pill">Everyday</span></div>
+      <div class="bento-content">
+        <span class="bento-index">02 / SHORT</span>
+        <h3>Quick setup. Natural results.</h3>
+        <p>A compact instruction for everyday chats when you want better writing without extra setup.</p>
+      </div>
+      <span class="bento-link">Use short prompt <i>→</i></span>
     </a>
-    <a class="resource-card" href="{{ '/prompts/strict-prompt.html' | relative_url }}">
-      <span class="card-number">03 · CONTROLLED</span><span class="card-link" aria-hidden="true">↗</span>
-      <h3>Strict Prompt</h3>
-      <p>Tighter constraints for removing common AI patterns and overly polished language.</p>
+
+    <a class="bento-card bento-compact bento-blue" href="{{ '/prompts/strict-prompt.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="bento-topline"><span class="icon-tile">✓</span><span class="card-pill">Controlled</span></div>
+      <div class="bento-content">
+        <span class="bento-index">03 / STRICT</span>
+        <h3>Cut the patterns you notice.</h3>
+        <p>Tighter constraints for avoiding filler, formal transitions, repetition, and overly polished language.</p>
+      </div>
+      <span class="bento-link">Use strict prompt <i>→</i></span>
     </a>
   </div>
 </section>
 
 <section class="home-section" id="examples">
-  <div class="section-heading">
-    <p class="eyebrow">See the difference</p>
-    <h2>Natural writing in context</h2>
-    <p>Concrete before-and-after examples for the places where tone matters most.</p>
+  <div class="section-heading section-heading-row">
+    <div>
+      <p class="eyebrow">See it in context</p>
+      <h2>Real writing, not abstract rules.</h2>
+    </div>
+    <p>Compare styles and see how the same principles work across messages, posts, comments, and replies.</p>
   </div>
-  <div class="card-grid">
-    <a class="resource-card" href="{{ '/examples/before-after.html' | relative_url }}">
-      <span class="card-number">BEFORE / AFTER</span><span class="card-link" aria-hidden="true">↗</span>
-      <h3>Side-by-side rewrites</h3>
-      <p>See how removing filler and generic phrasing changes the feel of a message.</p>
+
+  <div class="example-bento">
+    <a class="bento-card example-compare" href="{{ '/examples/before-after.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="bento-topline"><span class="card-pill">Before and after</span><span class="bento-arrow">↗</span></div>
+      <h3>Feel the difference.</h3>
+      <div class="compare-grid">
+        <div class="compare-item compare-before">
+          <span>Generic</span>
+          <p>Thank you for sharing this valuable information. I truly appreciate your thoughtful update.</p>
+        </div>
+        <div class="compare-item compare-after">
+          <span>Natural</span>
+          <p>Thanks for the update. This is helpful.</p>
+        </div>
+      </div>
     </a>
-    <a class="resource-card" href="{{ '/examples/social-media.html' | relative_url }}">
-      <span class="card-number">SOCIAL</span><span class="card-link" aria-hidden="true">↗</span>
-      <h3>Social media</h3>
-      <p>Posts that feel personal and appropriate for the platform instead of promotional.</p>
+
+    <a class="bento-card example-social" href="{{ '/examples/social-media.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="bento-topline"><span class="icon-tile">#</span><span class="bento-arrow">↗</span></div>
+      <div>
+        <span class="bento-index">SOCIAL</span>
+        <h3>Posts with personality.</h3>
+        <p>Share ideas and milestones without sounding promotional.</p>
+      </div>
+      <div class="social-reactions" aria-hidden="true"><span>♡ 128</span><span>↗ Share</span></div>
     </a>
-    <a class="resource-card" href="{{ '/examples/messages.html' | relative_url }}">
-      <span class="card-number">CONVERSATION</span><span class="card-link" aria-hidden="true">↗</span>
-      <h3>Messages and replies</h3>
-      <p>Direct, conversational language for personal messages, comments, and quick replies.</p>
+
+    <a class="bento-card example-messages" href="{{ '/examples/messages.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="bento-topline"><span class="icon-tile">•••</span><span class="bento-arrow">↗</span></div>
+      <div>
+        <span class="bento-index">MESSAGES</span>
+        <h3>Sound like you in every chat.</h3>
+        <p>Direct, personal language for the conversations that should never feel scripted.</p>
+      </div>
+    </a>
+
+    <a class="bento-card example-comments" href="{{ '/examples/comments.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="comment-stack" aria-hidden="true">
+        <span>That makes sense. The simpler version works better.</span>
+        <span>Agreed. I would keep it exactly this direct.</span>
+      </div>
+      <div>
+        <span class="bento-index">COMMENTS AND REPLIES</span>
+        <h3>Short replies that feel genuine.</h3>
+      </div>
+      <span class="bento-arrow">↗</span>
     </a>
   </div>
 </section>
 
-<section class="home-section principles" id="guidelines">
-  <div class="principle-copy">
-    <p class="eyebrow">The approach</p>
-    <h2>Your voice is the starting point.</h2>
-    <p>HumanTone does not prescribe one “human” style. It gives AI clearer signals about the person, audience, and context behind the words.</p>
-    <ul class="check-list">
-      <li>Match the writer’s tone and natural vocabulary</li>
-      <li>Remove filler, repetition, and canned transitions</li>
-      <li>Keep the level of polish appropriate to the context</li>
-      <li>Avoid claims about detecting or disguising AI writing</li>
-    </ul>
-    <div class="hero-actions principle-actions">
-      <a class="button" href="{{ '/guidelines/human-writing-principles.html' | relative_url }}">Read the principles <span aria-hidden="true">→</span></a>
-      <a class="button" href="{{ '/guidelines/ai-writing-patterns.html' | relative_url }}">Explore common patterns</a>
+<section class="home-section" id="guidelines">
+  <div class="principles-bento">
+    <div class="bento-card principle-main">
+      <span class="card-shine" aria-hidden="true"></span>
+      <p class="eyebrow">The HumanTone principle</p>
+      <h2>The writer comes before the writing system.</h2>
+      <p>There is no single formula for human writing. HumanTone gives AI clearer signals about the person, audience, and context behind the words.</p>
+      <ul class="check-list">
+        <li>Match natural vocabulary and sentence rhythm</li>
+        <li>Remove filler, repetition, and canned transitions</li>
+        <li>Keep the level of polish right for the context</li>
+      </ul>
+      <a class="text-link" href="{{ '/guidelines/human-writing-principles.html' | relative_url }}">Read the writing principles <span>→</span></a>
+    </div>
+
+    <a class="bento-card pattern-card" href="{{ '/guidelines/ai-writing-patterns.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="pattern-visual" aria-hidden="true">
+        <span style="--w:88%"></span><span style="--w:67%"></span><span class="pattern-highlight" style="--w:94%"></span><span style="--w:58%"></span><span style="--w:76%"></span>
+      </div>
+      <div>
+        <span class="bento-index">PATTERN GUIDE</span>
+        <h3>Notice what makes writing feel generic.</h3>
+        <p>Learn the common habits without treating any one pattern as proof of AI writing.</p>
+      </div>
+      <span class="bento-link">Explore patterns <i>→</i></span>
+    </a>
+
+    <div class="bento-card quote-card">
+      <span class="quote-mark" aria-hidden="true">“</span>
+      <p>Good AI-assisted writing should feel right for the person and the moment.</p>
+      <span>HumanTone philosophy</span>
     </div>
   </div>
-  <aside class="quote-panel">
-    <p>Good AI-assisted writing should feel appropriate to the person and the moment, not like everyone was handed the same script.</p>
-  </aside>
 </section>
