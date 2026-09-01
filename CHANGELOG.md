@@ -23,6 +23,8 @@ The format is based on Keep a Changelog principles.
 ### Changed
 
 - Rebuilt the site layout and visual system for a more polished reading experience
+- Redesigned the homepage with a premium bento grid, glass surfaces, and richer visual hierarchy
+- Added a responsive writing-profile preview, comparison cards, and pointer-aware card lighting
 - Improved prompt pages with a single, clearer copy control
 
 ### Fixed
