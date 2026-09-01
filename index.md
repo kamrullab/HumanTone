@@ -36,15 +36,18 @@ permalink: /
           <span class="profile-score">92%</span>
         </div>
         <div class="tone-label">Writing preferences</div>
-        <div class="tone-tags">
-          <span>Direct</span><span>Conversational</span><span>Clear</span><span>Personal</span>
+        <div class="tone-tags" role="group" aria-label="Choose a writing preference">
+          <button type="button" class="is-active" aria-pressed="true" data-tone="direct">Direct</button>
+          <button type="button" aria-pressed="false" data-tone="conversational">Conversational</button>
+          <button type="button" aria-pressed="false" data-tone="clear">Clear</button>
+          <button type="button" aria-pressed="false" data-tone="personal">Personal</button>
         </div>
         <div class="message-preview">
           <div class="message-meta"><span>Generated reply</span><span>Just now</span></div>
-          <p>Thanks for sending this. I looked through it and the direction feels right. I would keep the opening simple and make the main point clearer.</p>
+          <p data-generated-reply aria-live="polite">Thanks for sending this. I looked through it and the direction feels right. I would keep the opening simple and make the main point clearer.</p>
         </div>
         <div class="quality-row">
-          <span><i class="quality-dot"></i> Natural tone</span>
+          <span><i class="quality-dot"></i> <span data-tone-status>Direct tone</span></span>
           <span>No filler</span>
           <span>Voice matched</span>
         </div>
