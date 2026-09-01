@@ -20,6 +20,7 @@ Ready-to-use prompts for different writing needs.
 - [Master Prompt](./prompts/master-prompt.md)
 - [Short Prompt](./prompts/short-prompt.md)
 - [Strict Prompt](./prompts/strict-prompt.md)
+- [AI Memory Add-on](./prompts/memory-addon.md)
 
 ### 💡 Examples
 
@@ -36,6 +37,7 @@ Guides for understanding natural writing and common AI writing patterns.
 
 - [Common AI Writing Patterns](./guidelines/ai-writing-patterns.md)
 - [Human Writing Principles](./guidelines/human-writing-principles.md)
+- [AI Platform Setup Guide](./guidelines/ai-platform-setup.md)
 
 ### 🤝 Community
 
@@ -84,12 +86,14 @@ HumanTone helps reduce these patterns.
     │
     ├── guidelines/
     │   ├── ai-writing-patterns.md
+    │   ├── ai-platform-setup.md
     │   └── human-writing-principles.md
     │
     ├── prompts/
     │   ├── master-prompt.md
     │   ├── short-prompt.md
-    │   └── strict-prompt.md
+    │   ├── strict-prompt.md
+    │   └── memory-addon.md
     │
     ├── _config.yml
     ├── index.md
@@ -109,6 +113,7 @@ Choose a prompt from the [`prompts`](./prompts/) directory and use it as a syste
 - **Master Prompt:** A complete instruction set for matching a user's natural writing style.
 - **Short Prompt:** A lightweight version for everyday use.
 - **Strict Prompt:** A more restrictive version focused on avoiding common AI writing patterns.
+- **AI Memory Add-on:** A privacy-first companion for carrying approved writing preferences into future conversations.
 
 ## Core Principle
 

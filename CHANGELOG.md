@@ -19,6 +19,8 @@ The format is based on Keep a Changelog principles.
 - Responsive mobile navigation and documentation sidebar
 - Project branding, favicon, SEO metadata, and custom 404 page
 - Accessible keyboard focus, skip navigation, and reduced-motion support
+- AI compatibility guidance for ChatGPT, Claude, Gemini, Microsoft Copilot, and Perplexity
+- Privacy-first AI Memory Add-on prompt and platform setup guide
 
 ### Changed
 

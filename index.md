@@ -17,9 +17,9 @@ permalink: /
         <a class="button button-quiet" href="#prompts">Explore the toolkit</a>
       </div>
       <div class="hero-proof" aria-label="Toolkit summary">
-        <div><strong>3</strong><span>Ready prompts</span></div>
+        <div><strong>4</strong><span>Ready prompts</span></div>
         <div><strong>4</strong><span>Example sets</span></div>
-        <div><strong>2</strong><span>Practical guides</span></div>
+        <div><strong>3</strong><span>Practical guides</span></div>
       </div>
     </div>
 
@@ -60,7 +60,7 @@ permalink: /
   <div class="section-heading section-heading-row">
     <div>
       <p class="eyebrow">The prompt library</p>
-      <h2>One voice, three levels of control.</h2>
+      <h2>One voice, flexible control.</h2>
     </div>
     <p>Start lightweight or go deep. Each prompt is ready to copy and designed for a different writing situation.</p>
   </div>
@@ -107,6 +107,87 @@ permalink: /
       </div>
       <span class="bento-link">Use strict prompt <i>→</i></span>
     </a>
+
+    <a class="bento-card bento-memory" href="{{ '/prompts/memory-addon.html' | relative_url }}">
+      <span class="card-shine" aria-hidden="true"></span>
+      <div class="bento-topline"><span class="icon-tile" aria-hidden="true">◎</span><span class="card-pill">Optional add-on</span></div>
+      <div class="bento-content">
+        <span class="bento-index">04 / MEMORY</span>
+        <h3>Carry approved preferences into future chats.</h3>
+        <p>A privacy-first companion prompt that asks before saving stable writing preferences and keeps sensitive details out of memory.</p>
+      </div>
+      <span class="bento-link">Use memory add-on <i>→</i></span>
+    </a>
+  </div>
+</section>
+
+<section class="home-section" id="ai-setup">
+  <div class="section-heading section-heading-row">
+    <div>
+      <p class="eyebrow">AI compatibility</p>
+      <h2>Bring your voice to the AI you use.</h2>
+    </div>
+    <p>HumanTone prompts use plain-language instructions, so they work across leading conversational AI tools. Setup and memory features vary by platform.</p>
+  </div>
+
+  <div class="ai-platform-grid">
+    <article class="ai-platform-card ai-chatgpt">
+      <div class="ai-card-head">
+        <span class="ai-logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.2a4.4 4.4 0 0 1 7.5 3.2 4.4 4.4 0 0 1 1.2 7.9 4.4 4.4 0 0 1-6.3 5.4 4.4 4.4 0 0 1-7.5-3.1 4.4 4.4 0 0 1-1.2-8A4.4 4.4 0 0 1 12 3.2Z"/><path d="m8.1 8.2 3.9-2.3 3.9 2.3v4.6L12 15.1l-3.9-2.3V8.2Zm0 4.6-2.4 1.4m10.2-6 2.4-1.4M12 15.1v2.8"/></svg></span>
+        <div><h3>ChatGPT</h3><span class="memory-status">Memory optional</span></div>
+      </div>
+      <p>Use the prompt in a chat, Custom Instructions, or a Project.</p>
+      <span class="ai-setup-label">Best for persistent preferences</span>
+    </article>
+
+    <article class="ai-platform-card ai-claude">
+      <div class="ai-card-head">
+        <span class="ai-logo ai-letter" aria-hidden="true">A</span>
+        <div><h3>Claude</h3><span class="memory-status">Features vary</span></div>
+      </div>
+      <p>Use Profile Preferences, a Style, or Project Instructions.</p>
+      <span class="ai-setup-label">Best for styles and projects</span>
+    </article>
+
+    <article class="ai-platform-card ai-gemini">
+      <div class="ai-card-head">
+        <span class="ai-logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.8c.7 5.3 3.9 8.5 9.2 9.2-5.3.7-8.5 3.9-9.2 9.2-.7-5.3-3.9-8.5-9.2-9.2 5.3-.7 8.5-3.9 9.2-9.2Z"/></svg></span>
+        <div><h3>Gemini</h3><span class="memory-status">Memory separate</span></div>
+      </div>
+      <p>Paste into a chat or save the instruction inside a Gem.</p>
+      <span class="ai-setup-label">Best for reusable Gems</span>
+    </article>
+
+    <article class="ai-platform-card ai-copilot">
+      <div class="ai-card-head">
+        <span class="ai-logo" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7.3 5.2 12 2.5l4.7 2.7v5.4L12 13.3l-4.7-2.7V5.2Z"/><path d="m7.3 13.4 4.7 2.7 4.7-2.7v5.4L12 21.5l-4.7-2.7v-5.4Z"/></svg></span>
+        <div><h3>Copilot</h3><span class="memory-status">Memory optional</span></div>
+      </div>
+      <p>Add your voice profile through Copilot custom instructions.</p>
+      <span class="ai-setup-label">Best for Microsoft workflows</span>
+    </article>
+
+    <article class="ai-platform-card ai-perplexity">
+      <div class="ai-card-head">
+        <span class="ai-logo ai-letter" aria-hidden="true">P</span>
+        <div><h3>Perplexity</h3><span class="memory-status">Plan dependent</span></div>
+      </div>
+      <p>Use account instructions or add the prompt to a Space.</p>
+      <span class="ai-setup-label">Best for research Spaces</span>
+    </article>
+  </div>
+
+  <div class="memory-banner">
+    <span class="memory-orbit" aria-hidden="true">◎</span>
+    <div>
+      <p class="eyebrow">AI memory, under your control</p>
+      <h3>Save your voice, not your private life.</h3>
+      <p>The Memory Add-on asks the assistant to propose stable preferences, show them to you, and wait for approval before saving anything.</p>
+    </div>
+    <div class="memory-actions">
+      <a class="button button-primary" href="{{ '/prompts/memory-addon.html' | relative_url }}">Open memory prompt</a>
+      <a class="button button-quiet" href="{{ '/guidelines/ai-platform-setup.html' | relative_url }}">View setup guide</a>
+    </div>
   </div>
 </section>
 
