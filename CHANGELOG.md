@@ -32,6 +32,7 @@ The format is based on Keep a Changelog principles.
 ### Fixed
 
 - Removed the duplicate copy button generated on prompt pages
+- Added a clipboard fallback for Copy Prompt in restricted browser contexts
 
 ### Planned
 

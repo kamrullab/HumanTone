@@ -36,19 +36,48 @@ document.addEventListener("DOMContentLoaded", () => {
   const promptContent = document.querySelector("[data-prompt-content]");
 
   if (copyButton && promptContent) {
+    const copyText = async (text) => {
+      if (navigator.clipboard && window.isSecureContext) {
+        try {
+          await navigator.clipboard.writeText(text);
+          return;
+        } catch (error) {
+          // Continue to the selection fallback for restricted browsers.
+        }
+      }
+
+      const textArea = document.createElement("textarea");
+      textArea.value = text;
+      textArea.setAttribute("readonly", "");
+      textArea.style.position = "fixed";
+      textArea.style.opacity = "0";
+      textArea.style.pointerEvents = "none";
+      document.body.appendChild(textArea);
+      textArea.select();
+      textArea.setSelectionRange(0, textArea.value.length);
+
+      const copied = document.execCommand("copy");
+      textArea.remove();
+
+      if (!copied) throw new Error("Clipboard copy was blocked");
+    };
+
     copyButton.addEventListener("click", async () => {
       try {
-        await navigator.clipboard.writeText(promptContent.innerText.trim());
+        await copyText(promptContent.innerText.trim());
         copyButton.textContent = "Copied";
         copyButton.classList.add("is-copied");
+        copyButton.setAttribute("aria-label", "Prompt copied");
       } catch (error) {
         copyButton.textContent = "Copy failed";
+        copyButton.setAttribute("aria-label", "Copy failed. Select the prompt manually.");
       }
 
       window.setTimeout(() => {
         copyButton.textContent = "Copy prompt";
         copyButton.classList.remove("is-copied");
-      }, 1800);
+        copyButton.setAttribute("aria-label", "Copy prompt");
+      }, 2600);
     });
   }
 
