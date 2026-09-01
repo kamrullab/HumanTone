@@ -95,6 +95,13 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     toneOptions.forEach((option) => {
+      option.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          option.click();
+        }
+      });
+
       option.addEventListener("click", () => {
         const profile = toneProfiles[option.dataset.tone];
         if (!profile) return;
